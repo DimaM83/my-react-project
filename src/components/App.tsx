@@ -1,29 +1,13 @@
-import Product from "./Product/Product";
-import Mailbox from "./Mailbox/Mailbox";
+import MailboxList from "./Mailbox/MailboxList";
+import ProductList from "./Product/ProductsList";
 
 
 export default function App() {
   return (
-    <>
-      <h1> Best Selling</h1>
-      <Product
-        name="Tacos With Lime"
-        imgUrl="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?w=640"
-        price={10.99}
-      />
-
-      <Product
-        name="Fries and Burger"
-        imgUrl="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?w=640"
-        price={14.29}
-      />
-
-
-      <Mailbox
-        username="Jacob"
-        messages={["Message 1", "Message 2", "Message 3", "Message 4"]}
-      />
-    </>
+<>
+<ProductList/>
+<MailboxList/>
+</>
   );
 }
 
