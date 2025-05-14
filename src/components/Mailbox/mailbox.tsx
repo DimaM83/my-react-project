@@ -22,7 +22,7 @@ interface MailboxProps {
     messages: string[];
 }
 
-export default function Mailbox({username, messages}: MailboxProps)
+export default function Mailbox({username, messages}: MailboxProps) {
 return (
     <>
     <p>Hello {username}</p>
@@ -37,3 +37,4 @@ return (
     )}
     </>
 );
+}

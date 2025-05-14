@@ -1,5 +1,5 @@
-import Product from "./Product/product";
-import Mailbox from "./Mailbox/mailbox";
+import Product from "./Product/Product";
+import Mailbox from "./Mailbox/Mailbox";
 
 
 export default function App() {
